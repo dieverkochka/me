@@ -6,5 +6,3 @@ const nextConfig = {
     mdxRs: false,
   },
 };
-
-export default withContentlayer(nextConfig);
