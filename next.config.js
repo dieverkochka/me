@@ -1,5 +1,11 @@
-const isProd = process.env.NODE_ENV === 'production';
+import { withContentlayer } from "next-contentlayer";
 
-module.exports = {
-  output: 'export',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+	pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
+	experimental: {
+		mdxRs: true,
+	},
 };
+
+export default withContentlayer(nextConfig);
