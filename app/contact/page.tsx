@@ -1,28 +1,28 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Send, Ban, Youtube } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <Youtube size={20} />,
+		href: "https://www.youtube.com/channel/UCxL1zdu9VUejQDiwCAs-P_A",
+		label: "@dieverka",
+		handle: "YouTube",
 	},
 	{
-		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
-		label: "Email",
-		handle: "dev@chronark.com",
+		icon: <Ban size={20} />,
+		href: "https://discord.com/channels/@me/840190427193671721",
+		label: "@dieverka",
+		handle: "Discord",
 	},
-	{
-		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
-		label: "Github",
-		handle: "chronark",
-	},
+		{
+			icon: <Send size={20} />,
+			href: "https://t.me/Dieverka",
+			label: "@dieverka",
+			handle: "Telegram",
+		},
 ];
 
 export default function Example() {
